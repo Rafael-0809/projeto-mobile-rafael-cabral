@@ -20,34 +20,19 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12'
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
+        <ThemedText type="subtitle">Saldo disponível:<ThemedText type='defaultSemiBold'>R$ 00,00</ThemedText></ThemedText>
+        <ThemedText type="subtitle">Saldo em poupança:<ThemedText type='defaultSemiBold'>R$ 00,00</ThemedText></ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">Últimos lançamentos (extrato)</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          <ul>
+            <li>23/04- Depósito via Pix + R$ 00,00</li>
+            <li>23/04- Depósito via Pix + R$ 00,00</li>
+            <li>23/04- Depósito via Pix + R$ 00,00</li>
+            <li>23/04- Depósito via Pix + R$ 00,00</li>
+            <li>23/04- Depósito via Pix + R$ 00,00</li>
+          </ul>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
