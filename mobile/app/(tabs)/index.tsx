@@ -16,22 +16,22 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Olá, ...</ThemedText>
+        <ThemedText type="title">Olá, Mateus</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Saldo disponível:<ThemedText type='defaultSemiBold'>R$ 00,00</ThemedText></ThemedText>
-        <ThemedText type="subtitle">Saldo em poupança:<ThemedText type='defaultSemiBold'>R$ 00,00</ThemedText></ThemedText>
+        <ThemedText type="subtitle">{"\n"}Saldo disponível:<ThemedText type='defaultSemiBold'> R$ 4.256,96</ThemedText></ThemedText>
+        <ThemedText type="subtitle">Saldo em poupança:<ThemedText type='defaultSemiBold'> R$ 1.500,00</ThemedText></ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Últimos lançamentos (extrato)</ThemedText>
         <ThemedText>
           <ul>
-            <li>23/04- Depósito via Pix + R$ 00,00</li>
-            <li>23/04- Depósito via Pix + R$ 00,00</li>
-            <li>23/04- Depósito via Pix + R$ 00,00</li>
-            <li>23/04- Depósito via Pix + R$ 00,00</li>
-            <li>23/04- Depósito via Pix + R$ 00,00</li>
+            <li>23/04- Depósito via Pix + R$ 500,00</li>
+            <li>19/04- Pagamento Netflix - R$ 59,90</li>
+            <li>15/04- Posto de gasolina - R$ 250,00</li>
+            <li>09/04- Salário recebido + R$ 4.000,00</li>
+            <li>08/04- Compra no mercado - R$ 800,00</li>
           </ul>
         </ThemedText>
       </ThemedView>
